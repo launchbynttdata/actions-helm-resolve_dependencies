@@ -55,4 +55,4 @@ runs:
         fi
         popd
       }
-      resolve-helm-chart-dependencies ${{ inputs.chart_path }}
+      resolve-helm-chart-dependencies .
